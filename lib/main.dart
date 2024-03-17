@@ -1,6 +1,8 @@
 import 'package:api_tutorial_2/home.dart';
 import 'package:flutter/material.dart';
 
+import 'screens/api_example3.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "API Tutorial",
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const HomeScreen(),
+      home: const ApiExample3(),
     );
   }
 }
