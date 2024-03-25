@@ -67,6 +67,15 @@ class _ApiExample3State extends State<ApiExample3> {
                               title: 'Email',
                               value: snapshot.data![index].email.toString()),
                           ReusableRow(
+                              title: 'Email',
+                              value: snapshot.data![index].phone.toString()),
+                          ReusableRow(
+                              title: 'Email',
+                              value: snapshot.data![index].website.toString()),
+                          ReusableRow(
+                              title: 'Email',
+                              value: snapshot.data![index].company.toString()),
+                          ReusableRow(
                               title: 'Address',
                               value:
                                   '${snapshot.data![index].address!.street} , ${snapshot.data![index].address!.suite} , ${snapshot.data![index].address!.city} , ${snapshot.data![index].address!.zipcode} , ${snapshot.data![index].address!.geo!.lat} , ${snapshot.data![index].address!.geo!.lng}'),
